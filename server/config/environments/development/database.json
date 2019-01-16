@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds251284.mlab.com",
+        "srv": false,
+        "port": "51284",
+        "database": "chocobew",
+        "username": "sandipguchait",
+        "password": "roshni77"
+      },
+      "options": {
+        "authenticationDatabase": "chocobew",
+        "ssl": false
+      }
+    }
+  }
+}
